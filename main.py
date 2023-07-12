@@ -2,6 +2,8 @@ import streamlit as st
 import plotly.express as px
 from backend import get_data
 
+import streamlit as st
+st.markdown("<h1 style='text-align: center; color: red;font-size:50px'>WEATHERPY</h1>", unsafe_allow_html=True)
 st.title("Weather Forecast for the Next Days🌡️☁️ ")
 
 place = st.text_input(label="Place")
